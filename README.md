@@ -1,9 +1,11 @@
 # Insurance_Data_Project
 Build and compare multiple regression models to predict medical insurance charges and identify the best-performing model based on prediction accuracy and error metrics.
 
+**🏥 Medical Insurance Cost Prediction using Machine Learning**
+
 🏥 Medical Insurance Cost Prediction using Machine Learning
 
-📌 Project Overview
+**📌 Project Overview**
 
 Medical insurance charges are influenced by several demographic and lifestyle factors, making accurate cost estimation a challenging task. This project uses Machine Learning regression algorithms to predict medical insurance charges based on customer information such as age, gender, BMI, number of children, smoking status, and region.
 
@@ -12,28 +14,28 @@ The project compares the performance of Linear Regression, Decision Tree Regress
 
 ---
 
-🎯 Problem Statement
+**🎯 Problem Statement**
 
 The objective of this project is to build a machine learning model that accurately predicts medical insurance charges using customer demographic and lifestyle information. Multiple regression models are trained and evaluated to determine which algorithm provides the highest prediction accuracy while minimizing prediction errors.
 
 
 ---
 
-🎯 Objectives
+**🎯 Objectives**
 
-Predict medical insurance charges using Machine Learning.
+- Predict medical insurance charges using Machine Learning.
 
-Perform data preprocessing and cleaning.
+- Perform data preprocessing and cleaning.
 
-Handle missing values and outliers.
+- Handle missing values and outliers.
 
-Encode categorical variables.
+- Encode categorical variables.
 
-Train multiple regression models.
+- Train multiple regression models.
 
-Compare model performance using evaluation metrics.
+- Compare model performance using evaluation metrics.
 
-Select the best-performing model.
+- Select the best-performing model.
 
 
 
@@ -41,45 +43,57 @@ Select the best-performing model.
 
 📂 Dataset Features
 
-Age
+- Age
 
-Sex
+- Sex
 
-BMI
+- BMI
 
-Children
+- -Children
 
-Smoker
+- Smoker
+  
+- Claim_Amount
 
-Region
+- past_consultations
 
-Charges (Target Variable)
+- num_of_steps
 
+- Hospital_expenditure
 
+- Number_of_past_hospitalizations
 
----
+- Anual_Salary
 
-🛠 Technologies Used
+- region
 
-Python
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Scikit-learn
-
-XGBoost
-
-Jupyter Notebook
+- Charges (Target Variable)
 
 
 
 ---
 
-⚙️ Machine Learning Workflow
+**🛠 Technologies Used**
+
+- Python
+
+- Pandas
+
+- NumPy
+
+- Matplotlib
+
+- Scikit-learn
+
+- XGBoost
+
+- Jupyter Notebook
+
+
+
+---
+
+**⚙️ Machine Learning Workflow**
 
 1. Import required libraries
 
@@ -121,50 +135,59 @@ Jupyter Notebook
 
 ---
 
-🤖 Models Implemented
+**🤖 Models Implemented**
 
-Linear Regression
+- Linear Regression
 
-Decision Tree Regressor
+- Decision Tree Regressor
 
-Random Forest Regressor
+- Random Forest Regressor
 
-XGBoost Regressor
-
-
-
----
-
-📊 Model Performance
-
-Model R² Score
-
-Random Forest Regressor 98.99% ⭐
-XGBoost Regressor 98.88%
-Decision Tree Regressor 97.08%
-Linear Regression 96.95%
+- XGBoost Regressor
 
 
 
 ---
 
-📈 Evaluation Metrics
+**📊 Model Performance**
 
-The models were evaluated using:
+1. Model - Random Forest Regressor 
 
-R² Score
+   R² Score Performance - 98.99% ⭐ Best
 
-Mean Absolute Error (MAE)
+2. Model - XGBoost Regressor 
 
-Mean Squared Error (MSE)
+   R² Score Performance - 98.88% Excellent
 
-Root Mean Squared Error (RMSE)
+3. Model - Decision Tree Regressor 
+
+   R² Score Performance - 97.08% Very Good
+
+4. Model - Linear Regression 
+
+   R² Score Performance - 96.95% Good
 
 
 
 ---
 
-🏆 Best Model
+**📈 Evaluation Metrics**
+
+- The models were evaluated using:
+
+- R² Score
+
+- Mean Absolute Error (MAE)
+
+- Mean Squared Error (MSE)
+
+- Root Mean Squared Error (RMSE)
+
+
+
+---
+
+**🏆 Best Model**
 
 Random Forest Regressor achieved the best performance with:
 
@@ -182,27 +205,29 @@ Hence, Random Forest was selected as the final prediction model.
 
 ---
 
-📚 Key Learnings
+**📚 Key Learnings**
 
 Through this project, I gained practical experience in:
 
-Data preprocessing
+- Data preprocessing
 
-Missing value handling
+- Missing value handling
 
-Outlier detection using IQR
+- Outlier detection using IQR
 
-Label Encoding
+- Label Encoding
 
-Feature selection
+- Feature selection
 
-Regression algorithms
+- Regression algorithms
 
-Model evaluation
+- Model evaluation
 
-Performance comparison
+- Performance comparison
 
-Machine Learning workflow
+- Machine Learning workflow
+
+- Visualizations
 
 
 
@@ -210,17 +235,17 @@ Machine Learning workflow
 
 🚀 Future Improvements
 
-Hyperparameter tuning using GridSearchCV
+- Hyperparameter tuning using GridSearchCV
 
-Feature engineering
+- Feature engineering
 
-Cross-validation
+- Cross-validation
 
-Model deployment using Streamlit or Flask
+- Model deployment using Streamlit or Flask
 
-Integration with real-world insurance datasets
+- Integration with real-world insurance datasets
 
-Building an interactive prediction dashboard
+- Building an interactive prediction dashboard
 
 
 
@@ -231,36 +256,44 @@ Building an interactive prediction dashboard
 Medical-Insurance-Cost-Prediction/
 │
 ├── Medical_Insurance_Cost_Prediction.ipynb
+
 ├── insurance.csv
+
 ├── README.md
+
 └── requirements.txt
 
 
----
-
-📸 Results
-
-Successfully predicted medical insurance charges using machine learning.
-
-Compared four regression algorithms.
-
-Achieved 98.99% R² Score with the Random Forest Regressor.
-
-Identified the most accurate model through performance comparison.
-
-
 
 ---
 
-🤝 Connect With Me
+**📸 Results**
+
+- Successfully predicted medical insurance charges using machine learning.
+
+- Compared four regression algorithms.
+
+- Achieved 98.99% R² Score with the Random Forest Regressor.
+
+- Identified the most accurate model through performance comparison.
+
+
+
+---
+
+**🤝 Connect With Me**
 
 If you found this project helpful, feel free to ⭐ star the repository and connect with me on LinkedIn.
 
 
 ---
 
-📄 License
+**📄 License**
 
 This project is intended for educational and portfolio purposes. Feel free to use and modify it with proper attribution.
 
+
+---
+
 ⭐ If you like this project, don't forget to star the repository
+
