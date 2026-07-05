@@ -254,7 +254,9 @@ Through this project, I gained practical experience in:
 📌 Project Structure
 
 Medical-Insurance-Cost-Prediction/
+
 │
+
 ├── Medical_Insurance_Cost_Prediction.ipynb
 
 ├── insurance.csv
